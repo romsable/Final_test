@@ -19,7 +19,6 @@ string[] LessSym(string[] strings)
         if (strings[i].Length <= 3)
         {
             new_arr[i] = strings[i];
-            // Console.WriteLine(new_arr[i]);
         }
     }
     return new_arr;
